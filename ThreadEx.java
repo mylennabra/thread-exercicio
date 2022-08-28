@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 public class ThreadEx extends JFrame{
     //!! Thread t, t1, t2;
 
-    int xx = new Random().nextInt(800);
+    int xx = new Random().nextInt(600);
     int yy = new Random().nextInt(80);
 
     int j = 10;
@@ -15,7 +15,7 @@ public class ThreadEx extends JFrame{
     boolean exe = false;
 
     public ThreadEx() {
-        setSize(1000,800); // Define tamanho do frame
+        setSize(800,800); // Define tamanho do frame
         setVisible(true); // Torna o frame visivel
         setTitle("aaa"); // Definindo título pra janela 
         setLocationRelativeTo(null); // Definindo a posição da janela no centro da tela 
